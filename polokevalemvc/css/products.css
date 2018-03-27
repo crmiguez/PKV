@@ -1,0 +1,450 @@
+/*flash*/
+@keyframes backgroundflash {    
+    75% { opacity:1.0}
+    100% {opacity:0.0; display:none}
+}
+
+#flash {
+  background-color:green;
+  animation: backgroundflash 5s forwards; 
+}
+
+/*header text*/
+		h2{
+			color: #8a7300;
+			text-align: center;
+		}
+/*body*/
+		body{
+			font-family: Lucida Sans Typewriter, Arial, sans-serif;
+		}
+/*language*/
+		#languagechooser{
+			list-style:none;
+			font-size: 1.5em;
+			padding: 0;
+			max-height: none;
+			background-color: #3d3d3d;
+		}
+		#languagechooser a{
+			color:white;
+		}
+		
+/*product form*/
+		.formproduct{
+		  text-align: left;
+		  margin-top: 10px;
+		  margin-left: 10px;
+		  color: #494d4e;
+		  border: 1px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+		  padding: 7px;
+		  
+		}
+/*register form*/
+#registerform{
+		  text-align: left;
+		  margin-top: 10px;
+		  margin-left: 10px;
+		  color: #494d4e;
+		  border: 1px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+		  padding: 7px;
+		  
+}
+
+#loginform{
+		  text-align: left;
+		  margin-top: 10px;
+		  margin-left: 10px;
+		  color: #494d4e;
+		  border: 1px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+		  padding: 7px;
+		  
+}
+
+		
+/*logo and scroll to top*/		
+		.logo{
+			/*width: 320px;*/
+			margin: 0 auto;
+			
+		}
+		.ir-arriba {
+			display:none;
+			padding:20px;
+			background:#494d4e;
+			font-size:20px;
+			color: #ffffff;
+			position: fixed;
+			bottom:20px;
+			right:20px;
+		}
+		
+/*pagination*/
+		ul.pagination li a {
+			font-size: 22px;
+		}
+		
+		.pagination li:first-child a {
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+
+		.pagination li:last-child a {
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		
+		ul.pagination {
+			display: inline-block;
+			padding: 0;
+			margin: 0;
+		}
+
+		ul.pagination li {display: inline;}
+
+		ul.pagination li a {
+			color: #8a7300;
+			float: left;
+			padding: 8px;
+			text-decoration: none;
+		}
+		
+		ul.pagination li a {
+			border-radius: 5px;
+		}
+
+		ul.pagination li a.active {
+			border-radius: 5px;
+			background-color: #3d3300;
+			color: white;
+		}
+		
+		ul.pagination li a {
+			margin: 0 4px; /* 0 is for top and bottom. Feel free to change it */
+		}
+		
+/* search bar */
+		#query {
+		  text-align: center;
+		  margin-top: 10px;
+		  margin-left: 10px;
+		}
+
+		form#queryform {
+		  margin: 0px;
+		  text-align: center;
+		}
+
+		input#querybox {
+		  width: 100%;
+		  border: none;
+		  height: 60px;
+		  font-size: 1.8em;
+		  color: #494d4e;
+		  border: 1px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+		  padding: 7px;
+		}
+/* categories select bar */
+		#querybis {
+			text-align: center;
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+		form#queryform2 {
+		  margin: 0px;
+		  text-align: center;
+		}
+		
+		.flechita select{
+			font-size: 2.2em;
+			width: 90%;
+			height:90%;
+			border: 1px solid #ccc;
+			background: no-repeat 298px 3px  !important;
+			color:#494d4e;
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			appearance: none;
+			border: 1px solid #1e3c00;
+			border-radius: 10px;
+			border-width: 2px;
+			padding: 7px;
+		}
+
+/* make sidebar nav vertical */ 
+		@media (min-width: 268px) {
+			.sidebar-nav .navbar .navbar-collapse {
+			font-size: 1.5em;
+			padding: 0;
+			max-height: none;
+			background-color: #3d3d3d;
+		  }
+		  .sidebar-nav .navbar ul {
+			float: none;
+			color: #ffffff;
+			background-color: #3d3d3d;
+		  }
+		  .sidebar-nav .navbar ul:not {
+			display: block;
+			color: #ffffff;
+			background-color: #3d3d3d;
+			
+		  }
+		  .sidebar-nav .navbar li {
+			float: none;
+			display: block;
+		  }
+		  .sidebar-nav .navbar li img{
+			width: 10%;
+			height: 10%;
+		  }
+		  .sidebar-nav .navbar li a {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			color: #ffffff;
+			background-color: #3d3d3d;
+		  }
+		}
+		@media (min-width: 320px) {
+			.logo{
+				/*width: 320px;*/
+				margin: 0 auto;
+			}
+			
+		  .sidebar-nav .navbar .navbar-collapse {
+			font-size: 1.5em;
+			padding: 0;
+			max-height: none;
+			background-color: #3d3d3d;
+		  }
+		  .sidebar-nav .navbar ul {
+			float: none;
+			color: #ffffff;
+			background-color: #3d3d3d;
+		  }
+		  .sidebar-nav .navbar ul:not {
+			display: block;
+			color: #ffffff;
+			background-color: #3d3d3d;
+			
+		  }
+		  .sidebar-nav .navbar li {
+			float: none;
+			display: block;
+		  }
+		  .sidebar-nav .navbar li img{
+			width: 10%;
+			height: 10%;
+		  }
+		  .sidebar-nav .navbar li a {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			color: #ffffff;
+			background-color: #3d3d3d;
+		  }
+		  
+		}
+		@media (min-width: 768px) {
+		  /* uncomment if you would like the menu to be fixed */
+		  /*.navbar {
+			  position: fixed;
+			  width: 265px;
+			  z-index: 2;
+		  }*/
+		  .sidebar-nav .navbar li img{
+			width: 10%;
+			height: 10%;
+		  }
+		}
+		@media (min-width: 970px) {
+		
+		  .navbar {
+			 /* width: 212px;*/
+			 background-color: #3d3d3d;
+		  }
+		  .sidebar-nav .navbar li img{
+			width: 10%;
+			height: 10%;
+		  }
+		}
+		@media (min-width: 1920px) {
+			
+		  .navbar {
+			/*  width: 262px;*/
+			background-color: #3d3d3d;
+		  }
+		  .sidebar-nav .navbar li img{
+			width: 20%;
+			height: 20%;
+		  }
+		}
+		.sidebar-nav .navbar-header{ 
+			float: none;
+			background-color: #3d3d3d;
+			
+		}
+		
+/* products */
+		article.product {
+		  width: 30%;
+		  height: 30%;
+		  background-position:;
+		  background-repeat: no-repeat;
+		  margin-top: 15px; 
+		  margin-right: 15px;
+		  border: 20px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+
+		}
+
+		.product p {
+		  text-align: center;
+		  margin: 0px;
+		  
+		}
+
+		.product_image{
+		  width: 50%;
+		  height: 50%;
+		  position: center;
+		  background-position: center;
+		}
+		
+		.product_title {
+		  font-size: 1.5em;
+		  line-height: 20pt;
+		  background-position: center;
+
+		}
+		.product_price {
+		  font-size: 2.3em;
+		  line-height: 20pt;
+		  background-position: center;
+		  text-align: center;
+
+		}
+
+		.product_title a:active,
+		.product_title a:link  {
+		  text-align: center;
+		  color: #8a7300;
+		}
+		.product_title a:visited{
+			text-align: center;
+			color: #1e3c00;
+		}
+
+		.product_title, .product_image {
+		  display: inline;
+		  text-align: center;
+		}
+/*product in detail*/
+	.productdepth {
+		  width: 100%;
+		  background-position:;
+		  background-repeat: no-repeat;
+		  margin-top: 15px; 
+		  margin-right: 15px;
+		  border: 20px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+		   display: block;
+		}
+		.product_imagedepth{
+		  width: 100%;
+		  display: block;
+		  text-align: left;
+		  
+		}
+		
+		.product_contentdepth {
+		  font-size: 2.0em;
+		  line-height: 20pt;
+		  background-position: left;
+		  margin-top: 15px; 
+		  margin-left: 15px;
+
+		}
+		.product_pricedepth {
+		  font-size: 2.0em;
+		  line-height: 20pt;
+		  background-position: center;
+		  text-align: center;
+
+		}
+		
+/*product table*/
+		#tablemain{
+			position: left;
+			font-family: Lucida Sans Typewriter, Arial, sans-serif;
+			border-collapse: collapse;
+			width: 97%;
+		}
+		
+		 #tablemain th{
+			 font-size: 1.6em;
+			 background-color: #4CAF50;
+			 color: white;
+		}
+		#tablemain td{
+			 text-align: center;
+			 
+		}
+		.table_products{
+			 padding-top: 12px;
+			 padding-bottom: 12px;
+			 text-align: left;
+			 border: 20px solid #1e3c00;
+			 border-radius: 10px;
+			 border-width: 2px;
+		}
+		
+		.product_image_table{
+		  width: 30%;
+		  height: 30%;
+		  position: left;
+		  background-position: left;
+		}
+		
+		.product_title_table {
+		  font-size: 1.5em;
+		  line-height: 20pt;
+		  background-position: center;
+
+		}
+		.product_price_table {
+		  font-size: 2.3em;
+		  line-height: 20pt;
+		  background-position: left;
+		  text-align: left;
+
+		}
+
+		.product_title_table a:active,
+		.product_title_table a:link  {
+		  text-align: left;
+		  color: #8a7300;
+		}
+		.product_title_table a:visited{
+			text-align: left;
+			color: #1e3c00;
+		}
+		
+/*footer*/
+
+#footer {
+			text-align: center;
+			margin-left: 20px;
+			margin-top: 10px;
+			width: 30%;
+			height: 30%;
+		}
