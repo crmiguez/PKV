@@ -1,0 +1,234 @@
+/*header text*/
+		h2{
+			color: #8a7300;
+			text-align: center;
+		}
+/*body*/
+		body{
+			font-family: Lucida Sans Typewriter;
+			padding-top: 70px;
+		}
+/*logo*/		
+		.logo{
+			/*width: 320px;*/
+			margin: 0 auto;
+			
+		}
+/* btn */
+		.nav .navbar-nav .button {
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+		}
+		
+		.button_send #chatform {
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+		}
+/* chat bar */
+		#chattext {
+		  text-align: center;
+		  margin-top: 10px;
+		  margin-left: 10px;
+		  position:fixed;
+		  bottom: 0px;
+		  background-color:white;
+		}
+		
+		textarea#chatbox{
+			background: center center no-repeat; /* This ruins default border */
+			border: 1px solid #1e3c00;
+		}
+
+		form#chatform {
+		  margin: 0px;
+		  text-align: center;
+		}
+
+		input#chatbox {
+	      /*width: 85%;*/
+		  border: none;
+		  height: 60px;
+		  font-size: 1.8em;
+		  color: #494d4e;
+		  border: 1px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+		  padding: 7px;
+		}
+		
+/*emoji for chat*/
+		.emoji {
+		  width: 1.5em;
+          height: 1.5em;
+          display: inline-block;
+          margin-bottom: -0.25em;
+        }
+/* categories select bar */
+		#querybis {
+			text-align: center;
+			margin-left: 20px;
+			margin-top: 10px;
+		}
+		form#queryform2 {
+		  margin: 0px;
+		  text-align: center;
+		}
+		
+		.flechita select{
+			font-size: 2.2em;
+			width: 90%;
+			height:90%;
+			border: 1px solid #ccc;
+			background: no-repeat 298px 3px  !important;
+			color:#494d4e;
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			appearance: none;
+			border: 1px solid #1e3c00;
+			border-radius: 10px;
+			border-width: 2px;
+			padding: 7px;
+		}
+
+/* sidebar nav*/ 
+		@media (min-width: 320px) {
+			.logo{
+				/*width: 320px;*/
+				margin: 0 auto;
+			}
+			
+			
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar{
+			font-size: 1.5em;
+			padding: 0;
+			max-height: none;
+			background-color: #3d3d3d;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar ul {
+			float: none;
+			color: #ffffff;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar ul:not {
+			display: block;
+			color: #ffffff;
+			
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar  li {
+			float: none;
+			display: block;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar  li img{
+			width: 10%;
+			height: 10%;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar  li a {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			color: #ffffff;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar  li img{
+			width: 10%;
+			height: 10%;
+		  }
+		  
+		}
+		@media (min-width: 768px) {
+		  /* uncomment if you would like the menu to be fixed */
+		  /*.navbar {
+			  position: fixed;
+			  width: 265px;
+			  z-index: 2;
+		  }*/
+		}
+		@media (min-width: 970px) {
+		
+		  .navbar {
+			 /* width: 212px;*/
+			 background-color: #3d3d3d;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar  li img{
+			width: 10%;
+			height: 10%;
+		  }
+		}
+		@media (min-width: 1920px) {
+			
+		  .navbar {
+			/*  width: 262px;*/
+			background-color: #3d3d3d;
+		  }
+		  .collapse .navbar-collapse .navbar-ex6-collapse .nav .navbar-nav .navbar  li img{
+			width: 10%;
+			height: 10%;
+		  }
+		}
+		.collapse .navbar-collapse .navbar-ex6-collapse .navbar .nav .navbar-nav .navbar-header{ 
+			float: none;
+			background-color: #3d3d3d;
+			
+		}
+		
+/* require products*/
+		article.product {
+		  width:60%;
+		  height:60%;
+		  background-position:center;
+		  background-repeat: no-repeat;
+		  margin-bottom: 20px;
+		  border: 20px solid #1e3c00;
+		  border-radius: 10px;
+		  border-width: 2px;
+
+		}
+
+		.product p {
+		  text-align: center;
+		  margin: 0px;
+		  
+		}
+
+		.product_image img{
+		  height: 100px;
+		  text-align: left;
+		  position: left;
+		}
+		
+		.product_title {
+		  font-size: 1.3em;
+		  line-height: 20pt;
+		  background-position: left;
+
+		}
+		.product_price {
+		  font-size: 2.3em;
+		  line-height: 20pt;
+		  background-position: left;
+
+		}
+
+		.product_title a:active,
+		.product_title a:link  {
+		  text-align: center;
+		  color: #8a7300;
+		}
+		.product_title a:visited{
+			text-align: center;
+			color: #1e3c00;
+		}
+
+		.product_title, .product_image {
+		  display: inline;
+		  text-align: center;
+		}
